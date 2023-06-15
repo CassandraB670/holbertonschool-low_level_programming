@@ -18,4 +18,9 @@ Task 2 - file 2-assembler
 		The output file should be named the same as the C file, but with the extension .s instead of .c.
 			Example: if the C file is main.c, the output file should be main.s
 
+Task 3 - file 3-name
+	Write a script that compiles a C file and creates an executable named cisfun.
+
+		The C file name will be saved in the variable $CFILE
+
 
