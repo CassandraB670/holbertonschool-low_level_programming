@@ -26,4 +26,11 @@ Task 1 - file 1-last_digit.c
 			if the last digit of n is less than 6 and not 0: the string and is less than 6 and not 0
 		followed by a new line
 
+Task 2 - file 2-print_alphabet.c
+	Write a program that prints the alphabet in lowercase, followed by a new line.
+
+		You can only use the putchar function (every other function (printf, puts, etc…) is forbidden)
+		All your code should be in the main function
+		You can only use putchar twice in your code
+
 
