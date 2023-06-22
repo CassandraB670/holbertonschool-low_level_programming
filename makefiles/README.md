@@ -1,0 +1,13 @@
+C - Makefiles
+
+Task 0 - file 0-Makefile
+	Create your first Makefile.
+
+	Requirements:
+
+		name of the executable: school
+		rules: all
+		The all rule builds your executable
+		variables: none
+
+
