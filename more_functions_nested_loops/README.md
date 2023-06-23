@@ -47,7 +47,7 @@ Task 6 - file 6-print_line.c
 		The line should end with a \n
 		If n is 0 or less, the function should only print \n
 
-Task 6 - file 7-print_diagonal.c
+Task 7 - file 7-print_diagonal.c
 	Write a function that draws a diagonal line on the terminal.
 
 		Prototype: void print_diagonal(int n);
@@ -56,4 +56,11 @@ Task 6 - file 7-print_diagonal.c
 		The diagonal should end with a \n
 		If n is 0 or less, the function should only print a \n
 
+Task 8 - file 8-print_square.c
+	Write a function that prints a square, followed by a new line.
 
+		Prototype: void print_square(int size);
+		You can only use _putchar function to print
+		Where size is the size of the square
+		If size is 0 or less, the function should print only a new line
+		Use the character # to print the square
