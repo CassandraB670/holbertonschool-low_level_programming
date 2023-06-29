@@ -1,72 +1,10 @@
-Task 0 - strcat - file 0-strcat.c
+Task 0 - memset - file 0-memset.c
 
-	Write a function that concatenates two strings.
+	Write a function that fills memory with a constant byte.
 
-		Prototype: char *_strcat(char *dest, char *src);
-		This function appends the src string to the dest string, overwriting the terminating null byte (\0) at the end of dest, and then adds a terminating null byte
-		Returns a pointer to the resulting string dest
-	FYI: The standard library provides a similar function: strcat. Run man strcat to learn more.
-
-Task 1 - strncat - file 1-strncat.c
-
-	Write a function that concatenates two strings.
-
-		Prototype: char *_strncat(char *dest, char *src, int n);
-		The _strncat function is similar to the _strcat function, except that
-			it will use at most n bytes from src; and
-			src does not need to be null-terminated if it contains n or more bytes
-		Return a pointer to the resulting string dest
-	FYI: The standard library provides a similar function: strncat. Run man strncat to learn more.
-
-Task 2 - strncpy - file 2-strncpy.c
-
-	Write a function that copies a string.
-
-		Prototype: char *_strncpy(char *dest, char *src, int n);
-		Your function should work exactly like strncpy
-		FYI: The standard library provides a similar function: strncpy. Run man strncpy to learn more.
-
-Task 3 - strcmp - file 3-strcmp.c
-
-	Write a function that compares two strings.
-
-		Prototype: int _strcmp(char *s1, char *s2);
-		Your function should work exactly like strcmp
-	FYI: The standard library provides a similar function: strcmp. Run man strcmp to learn more.
-
-Task 4 - file 4-rev_array.c
-
-	Write a function that reverses the content of an array of integers.
-
-		Prototype: void reverse_array(int *a, int n);
-		Where n is the number of elements of the array
-
-Task 5 - Always look up - file 5-string_toupper.c
-
-	Write a function that changes all lowercase letters of a string to uppercase.
-
-		Prototype: char *string_toupper(char *);
-
-Task 6 - Capitalize - file 6-cap_string.c
-
-	Write a function that capitalizes all words of a string.
-
-		Prototype: char *cap_string(char *);
-		Separators of words: space, tabulation, new line, ,, ;, ., !, ?, ", (, ), {, and }
-
-Task 7 - Mozart - file 7-leet.c
-
-	Write a function that encodes a string into 1337.
-
-		Letters a and A should be replaced by 4
-		Letters e and E should be replaced by 3
-		Letters o and O should be replaced by 0
-		Letters t and T should be replaced by 7
-		Letters l and L should be replaced by 1
-		Prototype: char *leet(char *);
-		You can only use one if in your code
-		You can only use two loops in your code
-		You are not allowed to use switch
-		You are not allowed to use any ternary operation
+		Prototype: char *_memset(char *s, char b, unsigned int n);
+		The _memset() function fills the first n bytes of the memory area pointed to by s with the constant byte b
+		Returns a pointer to the memory area s
+	FYI: The standard library provides a similar function: memset. Run man memset to learn more.
 
 
