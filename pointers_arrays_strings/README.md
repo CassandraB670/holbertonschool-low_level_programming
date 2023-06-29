@@ -47,4 +47,9 @@ Task 5 - Always look up - file 5-string_toupper.c
 
 		Prototype: char *string_toupper(char *);
 
+Task 6 - Capitalize - file 6-cap_string.c
 
+	Write a function that capitalizes all words of a string.
+
+		Prototype: char *cap_string(char *);
+		Separators of words: space, tabulation, new line, ,, ;, ., !, ?, ", (, ), {, and }
