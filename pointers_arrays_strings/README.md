@@ -32,4 +32,13 @@ Task 3 - strspn - file 3-strspn.c
 		Returns the number of bytes in the initial segment of s which consist only of bytes from accept
 	FYI: The standard library provides a similar function: strspn. Run man strspn to learn more.
 
+Task 4 - strpbrk - file 4-strpbrk.c
+
+	Write a function that searches a string for any of a set of bytes.
+
+		Prototype: char *_strpbrk(char *s, char *accept);
+		The _strpbrk() function locates the first occurrence in the string s of any of the bytes in the string accept
+		Returns a pointer to the byte in s that matches one of the bytes in accept, or NULL if no such byte is found
+	FYI: The standard library provides a similar function: strpbrk. Run man strpbrk to learn more.
+
 
