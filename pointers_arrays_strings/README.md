@@ -50,11 +50,19 @@ Task 5 - strstr - file 5-strstr.c
 		Returns a pointer to the beginning of the located substring, or NULL if the substring is not found.
 	FYI: The standard library provides a similar function: strstr. Run man strstr to learn more.
 
-Task 6 - Chess i mental torture
+Task 6 - Chess is mental torture - file 7-print_chessboard.c
 
 	Write a function that prints the chessboard.
 
 		Prototype: void print_chessboard(char (*a)[8]);
 
+Task 7 - file 8-print_diagsums.c
+
+	Write a function that prints the sum of the two diagonals of a square matrix of integers.
+
+		Prototype: void print_diagsums(int *a, int size);
+		Format: see example
+		You are allowed to use the standard library
+	Note that in the following example we are casting an int[][] into an int*. This is not something you should do. The goal here is to make sure you understand how an array of array is stored in memory.
 
 
