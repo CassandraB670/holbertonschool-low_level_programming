@@ -4,9 +4,9 @@
 /**
  * print_diagsums - prints the sum of the two diagonals
  *
- * @a:
+ * @a: string
  *
- * @size:
+ * @size: number
  */
 
 void print_diagsums(int *a, int size)
