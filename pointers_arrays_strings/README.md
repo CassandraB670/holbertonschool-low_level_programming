@@ -50,4 +50,11 @@ Task 5 - strstr - file 5-strstr.c
 		Returns a pointer to the beginning of the located substring, or NULL if the substring is not found.
 	FYI: The standard library provides a similar function: strstr. Run man strstr to learn more.
 
+Task 6 - Chess i mental torture
+
+	Write a function that prints the chessboard.
+
+		Prototype: void print_chessboard(char (*a)[8]);
+
+
 
