@@ -5,4 +5,10 @@ Task 0 - file 0-puts_recursion.c
 		Prototype: void _puts_recursion(char *s);
 	FYI: The standard library provides a similar function: puts. Run man puts to learn more.
 
+Task 1 - file 1-print_rev_recursion.c
+
+	Write a function that prints a string in reverse.
+
+		Prototype: void _print_rev_recursion(char *s);
+
 
