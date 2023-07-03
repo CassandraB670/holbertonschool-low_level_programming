@@ -42,4 +42,8 @@ Task 5 - file 5-sqrt_recursion.c
 		If n does not have a natural square root, the function should return -1
 	FYI: The standard library provides a different function: sqrt. Run man sqrt to learn more.
 
+Task 6 - file 6-is_prime_number.c
 
+	Write a function that returns 1 if the input integer is a prime number, otherwise return 0.
+
+		Prototype: int is_prime_number(int n);
