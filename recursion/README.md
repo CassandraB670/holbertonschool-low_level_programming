@@ -11,4 +11,11 @@ Task 1 - file 1-print_rev_recursion.c
 
 		Prototype: void _print_rev_recursion(char *s);
 
+Task 2 - file 2-strlen_recursion.c
+
+	Write a function that returns the length of a string.
+
+		Prototype: int _strlen_recursion(char *s);
+	FYI: The standard library provides a similar function: strlen. Run man strlen to learn more.
+
 
