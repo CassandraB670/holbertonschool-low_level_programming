@@ -11,4 +11,11 @@ Task 1 - file 1-args.c
 
 		Your program should print a number, followed by a new line
 
+Task 2 - file 2-args.c
+
+	Write a program that prints all arguments it receives.
+
+		All arguments should be printed, including the first one
+		Only print one argument per line, ending with a new line
+
 
