@@ -5,4 +5,10 @@ Task 0 - file 0-whatsmyname.c
 		If you rename the program, it will print the new name, without having to compile it again
 		You should not remove the path before the name of the program
 
+Task 1 - file 1-args.c
+
+	Write a program that prints the number of arguments passed into it.
+
+		Your program should print a number, followed by a new line
+
 
