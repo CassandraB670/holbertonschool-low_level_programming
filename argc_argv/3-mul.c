@@ -5,9 +5,9 @@
 /**
  * main - multiplies two numbers
  *
- * @argc: number of arguments 
+ * @argc: number of arguments
  *
- * @argv: string 
+ * @argv: string
  *
  * Return: Result or Error
  */
@@ -15,8 +15,8 @@
 int main(int argc, char *argv[])
 {
 	int num1;
-        int num2;
-        int mul;
+	int num2;
+	int mul;
 
 	if (argc != 3)
 	{
