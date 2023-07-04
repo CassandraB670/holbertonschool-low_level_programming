@@ -1,0 +1,7 @@
+Task 0 - repertory stati_librairies
+
+	Create the static library libmy.a containing all the functions use in the previous project.
+
+	If you haven’t coded all of the above functions create empty ones with the right prototype.
+	Don’t forget to push your main.h file to your repository. 
+	It should at least contain all the prototypes of the above functions.
