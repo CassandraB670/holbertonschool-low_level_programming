@@ -2,10 +2,9 @@
 #include <stdarg.h>
 
 /**
- * print_all -
+ * print_all - function that prints anything
  *
- *
- *
+ * @format: list of types of arguments passed to the function
  *
 */
 
