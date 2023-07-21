@@ -11,17 +11,43 @@
 
 void print_all(const char * const format, ...)
 {
+    va_list ap;
+    unsigned int i = 0;
+    char *str;
+    char current_char;
 
-}
-#include "variadic_functions.h"
+    va_start(ap, format);
 
-/**
- * main - check the code
- *
- * Return: Always 0.
- */
-int main(void)
-{
-    print_all("ceis", 'B', 3, "stSchool");
-    return (0);
+    while (format && format[i])
+    {
+        current_char = format[i];
+
+        switch (current_char)
+        {
+            case 'c':
+                printf("%c", va_arg(ap, int));
+                break;
+            case 'i':
+                printf("%d", va_arg(ap, int));
+                break;
+            case 'f':
+                printf("%f", va_arg(ap, double));
+                break;
+            case 's':
+                str = va_arg(ap, char *);
+                if (str == NULL)
+                    str = "(nil)";
+                printf("%s", str);
+                break;
+            default:
+                i++;
+                continue;
+        }
+        if (format[i + 1] != '\0')
+            printf(", ");
+
+        i++;
+    }
+    printf("\n");
+    va_end(ap);
 }
