@@ -1,5 +1,4 @@
 #include "variadic_functions.h"
-#include "main.h"
 
 /**
  * print_all - Prints anything based on the format provided.
