@@ -40,7 +40,7 @@ int main(int argc, char *argv[])
 	startFile = open(argv[1], O_RDONLY);
 	if (startFile == -1)
 		error_exit(98, "Error: Can't read from file %s\n", argv[1]);
-	endFile = open(argv[2], O_CREAT | O_RDWR | O_TRUNC, S_IRUSR | S_IWUSR |
+	endFile = open(argv[2], O_CREAT | O_WRONLY | O_TRUNC, S_IRUSR | S_IWUSR |
 			S_IRGRP | S_IWGRP | S_IROTH);
 	if (endFile == -1)
 		error_exit(99, "Error: Can't write to %s\n", argv[2]);
